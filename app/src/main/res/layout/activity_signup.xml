@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signupActivity">
+
+
+    <EditText
+        android:id="@+id/PhoneET"
+        android:layout_width="277dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="Mobile no."
+        android:drawableStart="@drawable/ic_baseline_mobile"
+        android:inputType="phone"
+        app:layout_constraintBottom_toTopOf="@+id/otpET"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailET" />
+
+    <EditText
+        android:id="@+id/otpET"
+        android:layout_width="279dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="68dp"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="Enter OTP"
+        android:drawableStart="@drawable/ic_baseline_otp"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/getOTPButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PhoneET" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="172dp"
+        android:layout_height="151dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginBottom="22dp"
+        app:layout_constraintBottom_toTopOf="@+id/emailET"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/getOTPButton"
+        android:layout_width="282dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="68dp"
+        android:background="@android:drawable/button_onoff_indicator_on"
+        android:backgroundTint="@color/ic_launcher_background"
+        android:backgroundTintMode="src_in"
+        android:shadowColor="@color/white"
+        android:text="GET OTP"
+        app:backgroundTint="@color/ic_launcher_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/otpET" />
+
+    <EditText
+        android:id="@+id/emailET"
+        android:layout_width="279dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="10dp"
+        android:drawableStart="@drawable/ic_baseline_email"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/PhoneET"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

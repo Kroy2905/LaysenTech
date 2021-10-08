@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1038100316340",
+    "project_id": "laysantech-ebbcb",
+    "storage_bucket": "laysantech-ebbcb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038100316340:android:69c9bb55a9f4f9fac017e1",
+        "android_client_info": {
+          "package_name": "com.example.laysantech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1038100316340-il8uun0ec2b7dob2lgl9u3e2rvqgplor.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy-s-weXWz-n0I5HnanRlc9vgn_ap0VcE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1038100316340-il8uun0ec2b7dob2lgl9u3e2rvqgplor.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
